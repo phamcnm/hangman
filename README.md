@@ -8,9 +8,10 @@ Sasha Mothershead, Minh Pham, and Zoe Pharo
 Ensure all necessary files in the same folder:
 hangman.py is the main file
 graphics.py is the library to draw the things in the application
-grade3.txt, grade4.txt, grade5.txt, and grade6.txt are the words by level
+grade3.txt, grade4.txt, grade5.txt, and grade6.txt are the words by level.
 
 In the command line, type:
+
     python3 hangman.py
 
 ## Game Rules
