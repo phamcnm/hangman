@@ -5,7 +5,11 @@ The game Hangman application, final project for Intro to Computer Science.
 Sasha Mothershead, Minh Pham, and Zoe Pharo
 
 ## How to run
-Ensure all necessary files in the same folder (Hangman.py, grade3.txt, grade4.txt, grade5.txt, and grade6.txt)
+Ensure all necessary files in the same folder:
+hangman.py is the main file
+graphics.py is the library to draw the things in the application
+grade3.txt, grade4.txt, grade5.txt, and grade6.txt are the words by level
+
 In the command line, type:
     python3 hangman.py
 
@@ -16,7 +20,8 @@ In the command line, type:
     
     [Game screen opens]
 
-    * The object of the game is to guess a randomly generated hidden word. The number of dashes on the screen corresponds to the number of letters in the hidden word. A "WIN" occurs if you guess the word in five attempts or less. A "LOSS" occurs if you guess incorrectly six or more times, and the hangman is fully drawn. 
+    * The object of the game is to guess a randomly generated hidden word. The number of dashes on the screen corresponds to the number of letters in the hidden word. 
+    A "WIN" occurs if you guess the word in five attempts or less. A "LOSS" occurs if you guess incorrectly six or more times, and the hangman is fully drawn. 
     
     * Guess a letter by clicking a key on your keyboard
         * if the letter is correct, the letter appears on the corresponding line to represent its place in the word
